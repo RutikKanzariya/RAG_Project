@@ -93,7 +93,7 @@ if uploaded_file:
             # Create Embeddings
 
             embeddings = GoogleGenerativeAIEmbeddings(
-                model="models/embedding-001"
+    model="gemini-embedding-2"
             )
 
 
@@ -123,7 +123,7 @@ if os.path.exists("chroma_db"):
 
 
     embeddings = GoogleGenerativeAIEmbeddings(
-        model="models/embedding-001"
+    model="gemini-embedding-2"
     )
 
 
