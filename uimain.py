@@ -60,7 +60,9 @@ if uploaded_file:
 
 if os.path.exists("chroma_db"):
 
-    embeddings = GoogleGenerativeAIEmbeddings()
+    embeddings = GoogleGenerativeAIEmbeddings(                
+        model="gemini-embedding-2"
+    )
 
     vectorstore = Chroma(
         persist_directory="chroma_db",
