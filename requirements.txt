@@ -1,13 +1,33 @@
-langchain>=0.3.27
-langchain-core>=0.3.75
-langchain-community>=0.3.27
-langchain-google-genai>=2.1.10
-google-genai>=1.37.0
-chromadb>=1.0.20
-sentence-transformers>=5.1.0
-pypdf>=6.0.0
-pymupdf>=1.26.0
-python-dotenv>=1.1.1
-tiktoken>=0.11.0
-streamlit>=1.49.0
-requests>=2.32.5
+# Backend API
+fastapi
+uvicorn
+
+# Environment Variables
+python-dotenv
+
+# LangChain
+langchain
+langchain-core
+langchain-community
+langchain-text-splitters
+
+# LLM Integration (Google Gemini)
+langchain-google-genai
+google-genai
+
+# Vector Database
+chromadb
+
+# Embeddings
+sentence-transformers
+
+# Document Processing
+pypdf
+pymupdf
+
+# Tokenization
+tiktoken
+
+# HTTP Requests
+requests
+langchain-chroma
